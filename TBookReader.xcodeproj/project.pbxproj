@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		143C8BF01FE3BFDA004F26CD /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C8BEF1FE3BFDA004F26CD /* FeedbackViewController.m */; };
 		148096321FE3B15100109E3F /* AddBookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 148096311FE3B15100109E3F /* AddBookView.m */; };
-		148B13111FE2725C00A5510A /* JSPatchPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148B13101FE2725B00A5510A /* JSPatchPlatform.framework */; };
 		148B13131FE2728000A5510A /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 148B13121FE2728000A5510A /* main.js */; };
 		148B131D1FE298B800A5510A /* BookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 148B131A1FE298B800A5510A /* BookTableViewCell.xib */; };
 		148B131E1FE298B800A5510A /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 148B131C1FE298B800A5510A /* BookTableViewCell.m */; };
@@ -64,7 +63,6 @@
 		148096301FE3B15100109E3F /* AddBookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBookView.h; sourceTree = "<group>"; };
 		148096311FE3B15100109E3F /* AddBookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBookView.m; sourceTree = "<group>"; };
 		148B130F1FE2704700A5510A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		148B13101FE2725B00A5510A /* JSPatchPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatchPlatform.framework; sourceTree = "<group>"; };
 		148B13121FE2728000A5510A /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		148B131A1FE298B800A5510A /* BookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookTableViewCell.xib; sourceTree = "<group>"; };
 		148B131B1FE298B800A5510A /* BookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewCell.h; sourceTree = "<group>"; };
@@ -158,7 +156,6 @@
 				D3EF8C321C607DFF00F5925E /* libsqlite3.tbd in Frameworks */,
 				D3A63F291C506C1A009CC22E /* libicucore.tbd in Frameworks */,
 				35E285347557A7374F208DE6 /* libPods-TBookReader.a in Frameworks */,
-				148B13111FE2725C00A5510A /* JSPatchPlatform.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +180,6 @@
 		60FD2B2F46E296A798718EDD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				148B13101FE2725B00A5510A /* JSPatchPlatform.framework */,
 				C57EB9093E3AA9DEE4CD3E3E /* libPods-TBookReader.a */,
 			);
 			name = Frameworks;

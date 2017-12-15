@@ -16,7 +16,6 @@
 #define APP_KEY @"eVEne1PUVQ0rxDVJm4MktnUn"
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [AVOSCloudCrashReporting enable];
